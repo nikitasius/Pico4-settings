@@ -4,7 +4,7 @@ plugins {
 
 android {
   namespace = "com.pico4.settings"
-  compileSdk = 32
+  compileSdk = 34
 
   defaultConfig {
     applicationId = "com.pico4.settings"
