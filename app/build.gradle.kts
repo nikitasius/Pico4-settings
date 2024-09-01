@@ -4,13 +4,13 @@ plugins {
 
 android {
   namespace = "com.pico4.settings"
-  compileSdk = 32
+  compileSdk = 34
 
   defaultConfig {
     applicationId = "com.pico4.settings"
     minSdk = 29
     targetSdk = 34
-    versionCode = 1001
+    versionCode = 1002
     versionName = "1.0.1"
   }
 
