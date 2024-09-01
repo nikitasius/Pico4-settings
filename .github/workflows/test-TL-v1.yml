@@ -23,6 +23,12 @@ jobs:
         run: bash ./gradlew test --stacktrace
       - name: Check Gradle
         run: gradle -v
+      - name: WTF jks 1
+        run: ls -la
+      - name: WTF jks 2
+        run: ls -la ..
+      - name: WTF jks 3
+        run: ls -la ../..
   apk:
     name: Generate APK
     needs: test
