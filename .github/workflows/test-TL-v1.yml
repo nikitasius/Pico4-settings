@@ -19,10 +19,10 @@ jobs:
           architecture: x64
       - name: Check Java
         run: java -version
-      - name: Check Gradle
-        run: gradle -v
       - name: Run Tests
         run: bash ./gradlew test --stacktrace
+      - name: Check Gradle
+        run: gradle -v
   apk:
     name: Generate APK
     needs: test
