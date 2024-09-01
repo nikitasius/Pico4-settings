@@ -16,7 +16,7 @@ android {
 
   signingConfigs {
     create("release") {
-      storeFile = file("../fuckthesystem")
+      storeFile = file("../fuckthesystem.jks")
       storePassword = "fuckthesystem"
       keyAlias = "fuckthesystem"
       keyPassword = "fuckthesystem"
