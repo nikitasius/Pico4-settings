@@ -21,6 +21,10 @@ jobs:
           java-version: '17'
           distribution: 'corretto'
           architecture: x64
+      - name: Check Java
+        run: java -version
+      - name: Check Gradle
+        run: gradle -v
       - name: Run Tests
         run: bash ./gradlew test --stacktrace
   apk:
