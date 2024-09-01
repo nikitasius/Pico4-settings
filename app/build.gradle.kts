@@ -9,7 +9,7 @@ android {
   defaultConfig {
     applicationId = "com.pico4.settings"
     minSdk = 29
-    targetSdk = 29
+    targetSdk = 34
     versionCode = 1001
     versionName = "1.0.1"
   }
